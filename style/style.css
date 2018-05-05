@@ -1,0 +1,40 @@
+.search-bar {
+  margin: 20px;
+  text-align: center;
+}
+
+.search-bar input {
+  width: 100%;
+  height: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 20px;
+  border: 2px solid gray;
+}
+
+.search-bar input:focus {
+  outline-width: 0px;
+  border-color: black;
+}
+
+.video-list .details {
+  margin-top: 20px;
+}
+
+.video-list .details .title {
+  font-size: 1.5em;
+}
+
+.video-list .details .description {
+  margin: 8px 32px 0px 0px;
+  font-size: 1em;
+
+}
+
+.list-group-item {
+  cursor: pointer;
+}
+
+.list-group-item:hover {
+  background-color: #eee;
+}
